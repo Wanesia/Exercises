@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <p>Mr. Duck</p>
+        <button class="force" id="force">Force answer</button>
+        <img id="duck" src="duck.png" alt="duck">
+        <button id="user-btn" onclick="window.location.href='user.html'">User</button>
+    </header>
+    <div class="container">
+        <textarea id="txt-area" name="comments" rows="20" cols="100" placeholder="Explain your problem here"></textarea>
+        <button class="send-btn" id="send-btn">Send</button>
+        
+    </div>
+    <div class="messages" id="messages">
+        <ul class="messages-list" id="messages-list">
+
+        </ul>
+    </div>
+    <div></div>
+        <label for="item-select">Select an item:</label>
+        <select id="item-select">
+            <option value="Item 1">Item 1</option>
+            <option value="Item 2">Item 2</option>
+            <option value="Item 3">Item 3</option>
+        </select>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
